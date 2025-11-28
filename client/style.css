@@ -1,0 +1,55 @@
+body {
+    justify-content: center;
+    margin: 0;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 auto 0 auto;
+}
+
+ul {
+    display: flex;
+    margin: 0 auto 0 auto;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+.login-register {
+    width: 100%;
+    max-width: 150px;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto 0 auto;
+}
+
+.log-in {
+    width: 100%;
+}
+
+.sign-up {
+    width: 100%;
+}
+
+.userEmail {
+    color: brown;
+}

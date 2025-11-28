@@ -1,0 +1,38 @@
+body {
+    justify-content: center;
+    margin: 0;
+    display: flex;
+}
+
+section {
+    height: 400px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+}
+.logo:hover {
+    color: skyblue;
+}
+
+.new_user {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
